@@ -16,7 +16,7 @@
 # Configuration for the Liberty container
 ---
 repository_root: "https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/"
-version: 17.0.0.2
+version: 17.+
 type: webProfile7
 minify: false
 app_state: true
@@ -30,21 +30,18 @@ app_archive:
  features:
  - beanValidation-1.1
  - cdi-1.2
- - ejblite-3.1 
+ - ejbLite-3.2
  - el-3.0
- - jaxrs-1.1
+ - jaxrs-2.0
  - jdbc-4.1
  - jndi-1.0
  - jpa-2.1
- - jsf-2.0
+ - jsf-2.2
  - jsonp-1.0
  - jsp-2.3
  - managedBeans-1.0
  - servlet-3.1
  - websocket-1.1
- - wasjmsserver-1.0
- - jmsmdb-3.1
- - wasjmsclient-1.1
 
 # Map of optional Liberty component download name to feature names.
 # Used when liberty_repository_properties/useRepository is false.
@@ -59,7 +56,3 @@ component_feature_map:
  - wasJmsServer-1.0
  - wmqJmsClient-1.1
  - wsSecurity-1.1
-
-
-
-
