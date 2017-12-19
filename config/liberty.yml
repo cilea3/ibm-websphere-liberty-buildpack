@@ -30,18 +30,22 @@ app_archive:
  features:
  - beanValidation-1.1
  - cdi-1.2
- - ejbLite-3.2
+ - ejbLite-3.1
  - el-3.0
- - jaxrs-2.0
+ - jaxrs-1.1
  - jdbc-4.1
  - jndi-1.0
  - jpa-2.1
- - jsf-2.2
+ - jsf-2.0
  - jsonp-1.0
  - jsp-2.3
  - managedBeans-1.0
  - servlet-3.1
  - websocket-1.1
+ - jmsmdb-3.1
+ - wasjmsclient-1.1
+ - wasjmsserver-1.0
+ - localconnector-1.0
 
 # Map of optional Liberty component download name to feature names.
 # Used when liberty_repository_properties/useRepository is false.
